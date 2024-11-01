@@ -1,2 +1,3 @@
 # Ghostless-Halloween
 This is a 2D arcade shooter game programmed in C. The whole game could be run both on CPUlator (cpulator.01xz.net/ ) and DE1-SoC board. 
+The player controls the character in the red hood using W (up), A (left), S (down), D (right), and space to shoot. The player can move in a total of 8 directions which includes diagonals, and bullets are shot in the last direction the player was moving in. The enemies (bats) randomly spawn at each edge of the map and move at different speeds in a straight line towards the player’s current location. If any of the bullets hits a bat, 1 point is added to the score. If any of the bats touches the player, the game ends.
